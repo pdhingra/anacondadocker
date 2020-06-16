@@ -1,3 +1,4 @@
+# Reference https://towardsdatascience.com/docker-for-data-science-9c0ce73e8263
 FROM ubuntu
 RUN apt-get update && yes|apt-get upgrade
 RUN apt-get install -y wget bzip2
